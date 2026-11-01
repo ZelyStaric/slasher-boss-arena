@@ -3,11 +3,17 @@
 一个人、一把太刀、一个三阶段的 Boss。范围锁死在**一场战斗**里：不做过关、不做成长、不做第二把武器。
 目标是把「一个 Boss 的读招与应对」打磨到能反复打、且每一步都能说出依据。
 
+- **玩：** **https://zelystaric.github.io/slasher-boss-arena/** —— 点开即玩，无需下载（首次加载约 10–20 秒）
 - **看：** [`boss-demo.mp4`](boss-demo.mp4)（51.5 s，实机录制）
-- **玩：** 下载 [`BossArena-webgl.zip`](BossArena-webgl.zip)，解压后在目录里起一个静态服务（见下）
+- **离线包：** [`BossArena-webgl.zip`](BossArena-webgl.zip)，解压后起一个静态服务（见下）
 - **数据与取舍：** 本文「三处设计取舍」「与设计稿的差异」「验证」三节
 
 ## 怎么跑
+
+**在线版（推荐）：** https://zelystaric.github.io/slasher-boss-arena/ ，直接浏览器打开即可。
+构建产物在 `docs/`，走 GitHub Pages 托管；WebGL 打包时关掉了压缩，所以任何静态托管都能直接跑。
+
+**离线版：** 下载 [`BossArena-webgl.zip`](BossArena-webgl.zip) 后
 
 ```bash
 unzip BossArena-webgl.zip -d boss && cd boss
